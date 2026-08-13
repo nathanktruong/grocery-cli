@@ -1,0 +1,34 @@
+{
+  "name": "grocery-cli",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/nathanktruong/grocery-cli#readme",
+  "bugs": {
+    "url": "https://github.com/nathanktruong/grocery-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanktruong/grocery-cli.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "recipes": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.5.2",
+    "commander": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
+  }
+}
