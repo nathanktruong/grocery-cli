@@ -25,9 +25,11 @@
   },
   "dependencies": {
     "@inquirer/prompts": "^8.5.2",
+    "better-sqlite3": "^13.0.3",
     "commander": "^15.0.0"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
     "@types/node": "^26.2.0",
     "typescript": "^7.0.2"
   }
