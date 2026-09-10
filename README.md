@@ -1,3 +1,5 @@
+ARCHIVED. The work to get grocery store prices would be a significant blocker -- relying on webpage elements would be brittle, and there's no readily available APIs.
+
 # grocery-cli
 
 A command-line recipe helper.
